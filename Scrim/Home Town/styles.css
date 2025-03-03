@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+    font-family: 'Roboto', sans-serif, arial;
+    margin: 0;
+    text-align: center;
+}
+
+#hero {
+    width: 100;
+    padding: 50px 0;
+    background: lightblue;
+    background-image: url('images/torshov.jpg');
+    background-size: cover;
+}
+
+#hero_desc {
+    background: #1D3557;
+    width: 300px;
+}
+
+#activities_section {
+    background: #F1FAEE;
+    padding: 50px 0;
+    color: #1D3557;
+}
+
+#activity_flex {
+    display: flex;
+    width: 100;
+    justify-content: center;
+}
+
+#guide_section {
+    display: flex;
+    width: 350px;
+    padding: 20px 25px;
+    margin: 50px auto;
+    background: #A8DADC;
+    border-bottom: 5px solid #457B9D;
+    color: #1D3557;
+}
+
+#guide_section img {
+    width: 150px;
+}
+
+#inner_guide_card {
+    margin: 0 25px;
+}
+
+.activity_card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px 40px 0px 40px;
+}
+
+.activity_card img {
+    width: 100px;
+    border-radius: 50%;
+    
+}
+
+
+.boxed {
+    margin: 25px auto;
+    width: 200px;
+    padding: 15px 30px;
+    background: #457B9D;
+    color: white;
+    border-radius: 10px;
+}
+
+h1, h2, h3 {
+    
+    margin: 0;
+}
