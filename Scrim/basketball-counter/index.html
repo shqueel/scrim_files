@@ -1,29 +1,32 @@
 <html>
-    <head>
-        <link rel="stylesheet" href="index.css">
-    </head>
-    <body>
-        <button id="resetBtn" onClick="reset()">RESET GAME</button>
-        <div class="container">
-            <div class="scorecard">
-                <h3>HOME</h3>
-                <h2 class="score" id="home-Score">0<h2>
-                <div>
-                    <button onClick="add(null,1)">+1</button>
-                    <button onClick="add(null,2)">+2</button>
-                    <button onClick="add(null,3)">+3</button>
-                </div>
-            </div>
-            <div class="scorecard"> 
-                <h3>GUEST</h3>
-                <h2 class="score" id="guest-Score">0<h2>
-                <div>
-                    <button onClick="add(true,1)">+1</button>
-                    <button onClick="add(true,2)">+2</button>
-                    <button onClick="add(true,3)">+3</button>
-                </div>
-            </div>
+
+<head>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <button id="resetBtn" onClick="reset()">RESET GAME</button>
+    <div class="container">
+        <div class="scorecard">
+            <h3>HOME</h3>
+            <h2 class="score" id="home-Score">0<h2>
+                    <div>
+                        <button onClick="add(&quot;home&quot;,1)">+1</button>
+                        <button onClick="add(&quot;home&quot;,2)">+2</button>
+                        <button onClick="add(&quot;home&quot;,3)">+3</button>
+                    </div>
         </div>
-        <script src="index.js"></script>
-    </body>
+        <div class="scorecard">
+            <h3>GUEST</h3>
+            <h2 class="score" id="guest-Score">0<h2>
+                    <div>
+                        <button onClick="add(&quot;guest&quot;,1)">+1</button>
+                        <button onClick="add(&quot;guest&quot;,2)">+2</button>
+                        <button onClick="add(&quot;guest&quot;,3)">+3</button>
+                    </div>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+
 </html>
